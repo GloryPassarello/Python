@@ -1,0 +1,15 @@
+If you want to run a script on UBUNTU you MUST always write as first line
+
+TO RUN A PYTHON SCRIPT
+	#!/usr/bin/env python
+
+TO RUN A BASH SCRIPT
+	#!/bin/bash
+
+
+Otherwise Bash won't know which program to use for the run 
+you will visualize "Syntax error"
+
+
+In python you cannot use tabs
+IF you do it, you will have an INDENTATION ERROR

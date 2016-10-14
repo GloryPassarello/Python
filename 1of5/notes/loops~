@@ -1,0 +1,94 @@
+In Python we have two different types of loops:
+	- definite loop
+	- indenite loops
+
+
+#######WHILE#######
+
+Is a indefine loop: we could not know when it exactly will finish
+
+structure
+
+defing a variable
+while [condition]:
+	[ write something 
+	we want python to do
+	if hte while steatment is true ]
+end of the loop
+
+We can use two useful reserved words on python:
+	- break
+	- continue
+
+BREAK
+Under while loop we can decide to finish the loop if a CONDITION is TRUE:
+
+Example
+NOTA: take care to the indents!
+
+	while true :
+		line=raw_input('>')
+		if line == 'done':
+			break
+		print line
+	print 'Done!'
+
+When the if condition is verified the reserved word
+
+CONTINUE
+on opposition to break, continue does not say to stop the loop but says
+TO SKIP lines of code written belong IF THE CONDITION IS TRUE
+
+Example
+
+	while true :
+		line=raw_input('>')
+		if line[0] == '#':
+			 continue
+		print line
+	print 'Done!'
+
+This script will not execute the print line command for each input with # like first character.
+It will ignore all the line after the line continue
+it will restart from the beginning.
+
+
+#######FOR########
+
+It is a definite loop: we could know exactly how long the loop will run 
+
+Structure:
+
+	for *iteration value* in [list]:
+		[write something you want 
+		python to do]
+
+
+HOW TO MAKE A LOOP 
+
+1- Set some variable to inizial values
+2- Write your loop and you can add on it:
+	counting the iteration made on the loop
+	a filter inside the loop itself
+3- look at the variable
+
+
+####ADVISING####
+
+- None simply means a empty value 
+- Use *is* and *is not* only with NONE
+				  TRUE
+				  FALSE
+
+	IS operator is like == but stronger 
+	It usually works with cached variables and Python is not able to cache large number  
+- use   try: 	 to validate data input
+	except:
+- *or* is like *elif*
+
+
+ENDING WITH AN EMPTY LINE
+if len(inp) < 1 : break 
+
+
+

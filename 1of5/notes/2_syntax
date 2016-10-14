@@ -1,0 +1,63 @@
+constants	numbers, strings that are not in memory and they are just printed
+variables	they are number (float or integer) or string that are defined and kept in memory.
+		y=12.2 type= integer
+		s="Hello world" type= string
+Assignment 	used to declare a variable 
+		in R is <-
+Reserved word	they have a special meaning for Python. They usually are command for Python.
+		They shoud not be used as variables
+
+Comments	in Python comment are written in #
+		like in R and Bash
+####################################################################################################
+VARIABLE NAMES RULES
+a variable:
+* must start with a letter or an underscore
+* does not start with a number
+* does not start with another symbol which is not the _
+* does not include a dot
+####################################################################################################
+
+Numerical expression
++ 	addiction
+- 	subtraction
+* 	multiplication
+/ 	division
+** 	Power
+%	Remainder
+
+Python follows that order to do operation 
+Strongly raccomanded using parenthesis
+_________________________________________________________________________________________________________
+() parenthesis always goes first
+** Power
+* /multiplication
++ - addiction
+Left to right
+
+ **NUMBERS
+Python recognises a number without a dot as interger
+
+	9		integer
+	9/4= 2		interger. The resultus like an interger also so it will be troncate 
+	9/4.0=2.5 	float
+ ** DECLARE integer or float
+int() 	it declares the number between parenthesis as integer
+float()	it declares the number between parenthesis as float
+
+###########################################################################################################
+
+Python  Knows the difference between a number and a string
+	  __number	Python will do ad addiction
+	+|
+	 |__string	Python will do a concatenation
+###########################################################################################################
+
+raw_input()	it is a reserved word.
+		it asks for a question to the user
+		it waits for a input
+		it keeps the input in memory as string (you must declare it as integer is you want to use it as a number) 
+
+
+
+ 

@@ -1,0 +1,16 @@
+FUNCTIONS
+Function in Python are like in R.
+
+Structure
+	def   my_function():
+	    defining my_function
+
+def		with it, we are saying to python that we are going to define a new function
+		def is for defining
+my_function	it's the name of the function we are defining
+()		inside parenthesis we put the variable we want (like in R)
+warming		Keep in mind the indent mnecessary in python 
+
+All the reserved word are built-in function:
+they have a code written inside and with a reserved word the code is quicker
+	

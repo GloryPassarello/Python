@@ -1,0 +1,58 @@
+IF STRUCTURE CONDITIONAL
+
+BASH
+
+	if [ condition ]  ##REMENBER: put space inter bracket
+	then 
+		commands
+	else
+		commands
+	fi
+
+
+PYHTON
+
+	if [condition]: ## ":" is like "?"
+	    [what to do if true]
+	else:
+	    [Secondary thing to do ]
+
+
+Multi-way
+	if [condition]: 
+	    [what to do if true]
+	elif [condition] #elif=else+if
+	[what to do if true]
+	else:
+	    [Secondary thing to do ]
+
+
+COMPARISON OPERATORS (python)
+
+	<	less than
+	<=	less eqaul than 
+	==	equal to 
+	>=	greater than 
+	>	greater than
+	!=	not equal 
+
+REMEMBER
+= IS USED FOR ASSIGNMENT
+
+
+
+##############################################################################################
+
+Python has the possibility to show a message is something goes wrong
+you should use 
+
+	EXCEPT
+
+with that structure:
+
+	try:
+		val=int(rawstr)
+	except:
+		ival=-1
+
+
