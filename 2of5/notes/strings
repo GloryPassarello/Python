@@ -1,0 +1,38 @@
+KEY words
+
+[] square brackets	index
+traversal		pattern of processing a string one character at a time. I can do it with a while loop or a for loop.
+slice			segment of a string
+			words[5:6] it is like in R. (In R the first character of a string is 1 in Python 0)
+objects			something a variable can refer to 
+
+modules			it's a function or more then one functions defined in a script (with extension .py).
+			a module define names.
+			
+			I can call it in another script 
+			* modname.itemname 	(method (?)) 		
+			* from modname import itemnane
+			* import modname 
+			* from modname import *
+standard modules	Python has a standar modules, described on  "Library Reference"
+
+method			a function that is associated with an object.
+			We can call a method in two ways:
+				1- method(argument)  
+				2- invocation  word.method() using the dot notation (so we are invoking the method on the word)
+		
+Parsing strings		we can have slices of strings using the find method
+
+%, format operator	replaces part of string with data stored variables. 
+			If applied to integers, % is a module operator 
+			if applies to a string, it is a format operator.
+			%d used for integer
+			%g used for float
+			%s used for string
+
+
+
+
+NOTES_
+* for Python,Uppercases come before the lowercases.You can handle this just converting all the strings on the same format for example lowercase
+

@@ -1,0 +1,26 @@
+len()			return the length of a object
+			argument: sequence (string, tuple, list, range) a collection (dictionary, set)
+
+all the string method above are written with the invocation format 
+For more information 	https://docs.python.org/2/library/stdtypes.html#string-methods 
+
+
+
+str.find()		allows to know the position of a character or a sub string within a string.
+str.upper()		capitilizes each character in given string
+str.replace()		replaces a character or a letter in a given string
+str.lower()		converts strings to the lower case.
+str.startswith()	checks if a string begin with that character or not
+str.rstrip()		removes white spaces from the right side of the calling string 
+str.lstrip()		removes white spaces from the left side of the calling string
+str.strip()		removes whitespases from the end and the beginning if the chars is ometted or None
+			otherwise all the combination of the string on it are stripped
+
+__________________________________________________________________________________________
+
+dir()			with argument, it shows which names a module define on a sorted list of strings.
+			without argument, it shows the names you have defined before.
+help()			it does information about a function (like in bash)
+
+
+			
