@@ -1,0 +1,54 @@
+open()		built-in function used to open files
+		if the file is quite hugen python does not read the entire file 
+		open(name[, mode[, buffering]])
+		name= name of the file to be opened, mandatory
+		mode= how the file will be opened
+			r  reading mode
+			w  writing mode
+			a  appending
+		if you specify nothing, python will open your file on reading mode  
+
+		BE CAREFULL WITH THAT: IF YOU RE_USE THE SAME COMMANDS PYTHON WILL REFRESH THE FILE STORED ON THE MAIN MEMORY (LIKE IN R)
+
+
+read()		it can be used on a invocation mode. 
+		For example: imp=file.read()
+				we created a object on python on we can use the function len().
+		The file is stored on the RAM (main memory) so it is recommended to use it for small files.
+		Allows to read the whole file
+
+write()		It allows to write on a handle file.
+		We should open it with writing mode. 
+		example:  
+			file= open('file.txt', 'w')
+			line='this line is gonna to be added on the file'
+			file.write(line)		
+			file.close() #we need to close the file but before be sure that we wrote on it what we want
+
+\n		stays for a new line 
+		a new line is one character
+\t		it stays for a tab
+		it is one character
+\r
+
+handle file 	is a temporary file, that is read by python but not written on the main memory (like R when it reads data)
+		I cannot use the function len() with a handle file 
+
+
+
+
+#####COUNTING A LINE#####
+
+file= open(text.txt)
+count=0
+for line in file:
+	count= count + 1
+print 'Line count: ',count
+
+
+file.read() 	(invocation) I can read the text of the file in one line
+		in this case I can use the len() function
+		
+
+
+

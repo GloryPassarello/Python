@@ -1,0 +1,53 @@
+given 2 list
+t = [1, 2, 3, 4, 5, 6, 7]
+x = [10, 12, 13]
+
+#right commands
+>>> t.append(x)
+>>> t
+[1, 2, 3, 4, 5, 6, 7, [10, 12, 13]]
+
+>>> t = t + [x]
+>>> t
+[1, 2, 3, 4, 5, 6, 7, [10, 12, 13]]
+
+
+#wrong commands
+>>> t.append([x])
+#that creates a double nested list lenght of the list = 8
+>>>t
+[1, 2, 3, 4, 5, 6, 7, [[10, 12, 13]]]
+#So if I add a new elements and I call the list y 
+y= [1, 2, 3, 4, 5, 6, 7, [[10, 12, 13], 8, 9, 10]]
+#the leght of the list will be always 8
+
+
+>>>t=t.append(x)
+>>>t
+#This returns nothing: this is a void function.
+#The correct way to use it is 
+>>>t.append(x)
+
+
+>>> t+[x]
+#I am creating a nested list: the lenght of the list now is 8
+[1, 2, 3, 4, 5, 6, 7, [10, 12, 13]] 
+
+
+>>> t = t + x 
+#I am overwriting the list t
+>>> t
+[1, 2, 3, 4, 5, 6, 7, 10, 12, 13]
+
+##PAY ATTENTION: THAT LAST COMMAND WORKS BECAUSE x AND t ARE BOTH LIST 
+##If x were a number, I would have an error
+
+>>> t = [1, 2, 3, 4, 5, 6, 7]
+>>> x = 12
+>>> t = t + x
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate list (not "int") to list
+##that why I can use + with similar object.
+
+

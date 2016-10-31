@@ -1,0 +1,72 @@
+list		a collection of value
+		I can have: 	* number
+				* string
+				* both (it has not to be the same)
+		string are immutable but not list 
+		I can change a list with a *mapping*
+mapping		is a relationship between index and element 
+		
+		list[3]='book'
+		[3] is the index
+		'book is the element'
+		if a list has a negative index it counts backward from the end of the list 
+
+in 		is a logical operation.
+		I am asking: Is something IN this list?
+		Python will reply to me: TRUE or FALSE
+
+operation	+	adds two list making only one list 
+		*	repeats the same list a given number of times
+
+list()		it is used to convert a string into a list. 
+		It breaks a string into individual letters	
+split()		It breaks a string into words 
+		without specifing anything this operator uses spaces to divide strings
+		I can put into parenthesis the element (DELIMITER)I want to divide the string
+		for example 
+		DELIMITERS:	'-' or ':'
+join() 		it is a string method but 
+		IT MUST BE INVOKED BY THE DELIMITER AND PASS THE LIST AS A PARAMETER
+
+reference	association of a variable with an object.
+
+aliased		It is refered to an object.
+		It is a object whose reference has more than one name. 
+		aliased objects are mutable.
+
+Lists in Python are EQUIVALENT (they have same elements) but not IDENTICAL (they are not the same object)
+string are IDENTICAL and so they are also EQUIVALENT
+
+a list is made by objects. They have a value that can be the same 
+
+
+void function		functions that not return anything. 
+			this function modify the input object 
+			the correct way to call it is:
+			
+				function(x)
+				print x
+
+fruitful function	return something you must assign to a variable
+			it not modify the input but create a new objet. 
+			you MUST USE RETURN with that function:
+
+				def function(t):
+					write your function here
+					return tnew
+				t2=function(t)
+				print t2
+				
+				example
+			def fnname():
+			  code
+			  if xxx:
+			    return result
+			  else:
+			    return None
+ 			   # specify a return value
+
+
+
+
+

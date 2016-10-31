@@ -1,5 +1,21 @@
 len()			return the length of a object
 			argument: sequence (string, tuple, list, range) a collection (dictionary, set)
+
+dir()			with argument, it shows which names a module define on a sorted list of strings.
+			without argument, it shows the names you have defined before.
+			It also shoews what you can do with that type of object
+			
+help()			it does information about a function (like in bash)
+
+repr()			It allows to manage spaces, tabs and new lines. they are invisible to use.
+			With that function we have a printable representation of an object 
+
+all the string method above are written with the invocation format 
+For more information 	https://docs.python.org/2/library/stdtypes.html#string-methods 
+
+
+				###BUILT-IN FUNCTION STRING
+
 str.find()		allows to know the position of a character or a sub string within a string.
 str.upper()		capitilizes each character in given string
 str.replace()		replaces a character or a letter in a given string
@@ -9,12 +25,44 @@ str.rstrip()		removes white spaces from the right side of the calling string
 str.lstrip()		removes white spaces from the left side of the calling string
 str.strip()		removes whitespases from the end and the beginning if the chars is ometted or None
 			otherwise all the combination of the string on it are stripped
+str.close()		closes a handle file obteined with open() command
+str.read()		read the file into memory
+str.split()		return a *list* of the words in the string 
 
-__________________________________________________________________________________________
 
-dir()			with argument, it shows which names a module define on a sorted list of strings.
-			without argument, it shows the names you have defined before.
-help()			it does information about a function (like in bash)
+___________________________________________________________________________________________________________________________________________
+				###BUILT-IN FUNCTION LIST###
 
+			more information on https://docs.python.org/2.7/tutorial/datastructures.html
+
+range()			returns a list of number from 0 to n-1 where n is the lenght of the list
+
+del t[1]		it is an operator not a function
+			it deletes the 2nd element of the list t
+			it can be used with a slice index		
+
+list.append()		Adds an item to the end of the list. it is a void function.
+list.extend()		adds a list (t2) to the end of another list (t1)
+			t1.extend(t2)	#t2 is unmodified
+list.insert(i,x)	inserts an item at a given position
+list.remove()		it removes the element from a list.
+			as object you will have an element
+			
+list.pop([])		deletes a element of a list with its index (that's why we have the brackets [])
+			in addiction return the element that was removed from the list
+			if you do not provide an index, it deletes and return the last element
+
+list.index()		returns the index in the list of the first item whose value is x
+			s.index(x[, i[, j]]) 
+			return smallest k such that s[k] == x and i <= k < j
+
+list.count()		returns the number of count that a x element apears in the list
+list.sort()		arranges element of the list from low to high
+list.reverse()		reverses the places of the elements of the list 
+list.max()		returns the maximum on the list
+list.min()		returns the minimum on the list
+list.sum()		returns the sum of the list
+
+		
 
 			

@@ -1,0 +1,25 @@
+Handling the path for a file or directoty
+
+relative path	starts from the CURRENT DIRECTORY
+absolute path	starts from the topmost directory in the file system
+
+
+os module (os stands for operating system)
+	it provides functions for working with files and directories
+
+os.getcwd()		returns the name of the current directory
+			cwd stands for "current working directory" (like bash)
+
+###os.path module
+		https://docs.python.org/2/library/os.path.html#module-os.path
+
+
+os.path.abspath()	finds the absolute path to a file
+os.path.exists()	checks if a file or a directory exists.
+			it is a logical function
+os.path.isdir()		checks whether it's a directory
+			it is a logical funtion
+os.path.isfile()	checks whether it's a file
+			it is a logical function
+os.listdir()		returns a list of the files (and other directories) in the given directory
+
