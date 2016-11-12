@@ -1,0 +1,54 @@
+
+dictionary		it is like a list but with a mapping from a set of heys to their corresponding values. 
+key			it is a indeces that map a value
+key-value pair		association between a key and its value
+item			sometimes it is a key-value pair for a dictionary
+{}			they represent an empty dictionary
+
+
+dict()			it is a built-in function.
+			it creates an empty list
+
+in 			it tells if something appears as a *key* (not the value) in a dictionary.
+			for a dictionary is a logical function
+
+get			it is a method implemented on the dictionaries. 
+			if the key IS IN the dictionary, it returns the corresponding value
+			if not, it return the default value
+			it is used in a loop to counting:
+
+
+					EXAMPLE
+				word = 'brontosaurus'
+				d = dict()
+				for c in word:
+					d[c] = d.get(c,0) + 1
+				print d
+			
+			it is used to create or update key on a dictionary
+
+					EXAMPLE
+				counts = dict()
+				names = ['csev','cwen','csen','zqian','cwen']
+				for name in names:
+					counts[name] = counts.get(name,0) + 1
+				print counts
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TO FIGURE OUT IS A VALUE IS PRESENT ON A DICTIONARY
+1- create a list made with the values present on the dictionary (example)
+2- use the in operator to figure out if the value is present(TRUE) or not (FALSE)
+
+EXAMPLE
+1-  vals = example.value()
+2-  'wherewer' in vals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
