@@ -1,0 +1,40 @@
+Tuples are collections
+Type of collection 
+list=[]
+dictionary={}
+tuple=()
+
+- they are like list, they contein object with
+- they are like the strings they are IMMUTABLE they cannot be changed
+- they are COMPERABLE 
+- Syntactically, they are a comma-separeted list of values
+- Python uses parentesis to identify them quickly
+- If I want to create a tuple with a single value, I have to add a single comma in the end
+	t1=('a',)
+	that's why python,if we didn't add the comma, would identify t1 as a string. 
+
+___________________________________________________________________________________________________________
+        BUILT-IN FUNCTION
+
+dir()		I can figure out what I could do with that object
+tuple()		creates a tuple 
+
+dic.tuple()	create a LIST of tuples whome can be sorted bacause it is a list and not a tuple anymore
+
+COMPARINSON
+-python compares the first element
+
+
+
+why are tuples are so important?
+-they are more efficient (save processing time) 
+I can create a tuple with two assignments
+ example 
+(x, y) = (4, 'fred')
+o we can delete the parentensis
+x, y = (4, 'fred')
+
+
+
+
+

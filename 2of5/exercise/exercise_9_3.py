@@ -1,3 +1,7 @@
+#this script genetares a output with a instogramm (ist) with the e-mail received
+#In the end it will computated the most common e-mail and the count of the sent email
+
+
 text = open('/home/anabrs1/Python_material/code/mbox.txt')
 person = list()
 ist = dict()

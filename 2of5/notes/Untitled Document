@@ -1,0 +1,31 @@
+Tuples are collections, another type of collection 
+so now we have:
+list=[]
+dictionary={}
+tuple=()
+
+TUPLES
+
+- they are like list, they contein object with
+- they are like the strings they are IMMUTABLE they cannot be changed
+- they are COMPERABLE 
+
+
+dir()		I can figure out what I could do with that object
+
+why are tuples are so important?
+-they are more efficient (save processing time) 
+I can create a tuple with two assignments
+ example 
+(x, y) = (4, 'fred')
+o we can delete the parentensis
+x, y = (4, 'fred')
+
+when I use the dic.item function I create a tuples
+
+
+with tuples I can:
+- compare things
+- sort things
+usually I can sort by keys but there is a trick in python to sort with the values. 
+
