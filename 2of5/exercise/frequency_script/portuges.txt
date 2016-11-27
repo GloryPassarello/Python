@@ -1,0 +1,5 @@
+Num algoritmo de substituição simples, cada letra do texto plano substitui-se por outra e uma dada letra do texto plano será sempre transformada na mesma letra na mensagem cifrada. Por exemplo, todas as a se converterão em X. Um texto cifrado com uma alta frequência de letras X poderia sugerir ao criptoanalista que os X representam a letra a.
+
+O uso básico de análise de frequências consiste em primeiro em calcular a frequência das letras que aparecem no texto cifrado e de seguida associar letras de texto plano a elas. Uma grande frequência de X poderá sugerir que as X serão correspondentes ao a, mas este nem sempre será assim , já que as letras e e o têm una frequência alta também em português. No entanto, não será nada provável que as X representem, neste caso, a letra k ou a w. Por isso, o criptoanalista poderá ter que tentar várias combinações até decifrar o texto.
+
+Estatísticas mais complexas poderiam ser usadas, como considerar os pares de letras ou mesmo trios. Isto faz-se para proporcionar mais informação ao criptoanalista. Por exemplo, as letras q e u vão quase sempre juntas em português, enquanto que a q isolada é muito rara.

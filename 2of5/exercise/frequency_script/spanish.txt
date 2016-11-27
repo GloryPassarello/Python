@@ -1,0 +1,9 @@
+El cálculo de la frecuencia de letras en una lengua es difícil y está sujeto a la interpretación. Se cuenta la frecuencia de las letras de un texto arbitrariamente largo, pero en los resultados influyen varios parámetros:
+
+    El estilo narrativo. Si hay muchos verbos en infinitivo, habrá muchas "R".
+    El vocabulario específico del documento. Si se habla de ríos, habrá muchas "Í"; si uno de los protagonistas se llama Wenceslao, aumentará el número de "W".
+    El tipo de documento. En pequeños anuncios se pueden encontrar muchos símbolos de monedas (€, $, Bs, etc), que es posible que estén ausentes en la mayor parte de otro tipo de documentos.
+    En el diccionario de la RAE la letra más frecuente es la A, pero en cualquier texto castellano, la frecuencia de las partículas "que", "el", "se", "me", etc. hace que la "e" sea más frecuente.
+    Los parámetros técnicos. Se pueden calcular fácilmente estadísticas sobre textos informatizados, pero a menudo, éstos no implican el uso de mayúsculas acentuadas (que a veces resultan complicadas de teclear). Además, algunos autores omiten las tildes.
+    La presencia de caracteres no alfabéticos (signos de puntuación, cifras, paréntesis, símbolos matemáticos corrientes, etc.) pueden o no tenerse en cuenta. La coma y el punto, por ejemplo, son más frecuentes que más de la mitad de las letras.
+

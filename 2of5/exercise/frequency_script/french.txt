@@ -1,0 +1,5 @@
+Dins la criptoanàlisi, l'anàlisi de freqüències és l'estudi de la freqüència de les lletres o grups de lletres en un text xifrat. És un mètode de suport per a la ruptura d'un xifrat clàssic.
+
+L'anàlisi de freqüències està basat en el fet que, donat un text, certes lletres o combinacions de lletres apareixen més sovint que altres, existint diferents freqüències per a elles. És més, hi ha una distribució característica de les lletres que és pràcticament la mateixa per a la majoria d'exemples d'aquest llenguatge. Per exemple, en anglès la lletra E és molt comú, mentre que la X és molt rara. Igualment, les combinacions ST, NG, TH i QU són parells de lletres comuns, mentre que NZ i QJ són rars. La frase mnemotècnica "Etaoin Shrdlu" agrupa les dotze lletres més freqüents en els textos anglesos. A espanyol, les vocals són molt freqüents, ocupant al voltant del 45% del text, sent la E i l'A les que apareixen en més ocasions, mentre que la freqüència sumada de F, Z, J, X, W i K no arriba al 2%.
+
+En alguns cifradores, les propietats naturals del text pla es preserven al text xifrat. Aquests esquemes poden ser potencialment objecte d'atacs de només text xifrat.

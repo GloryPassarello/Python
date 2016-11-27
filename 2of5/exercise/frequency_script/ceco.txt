@@ -1,0 +1,9 @@
+Frekvenssianalyysi on kirjainten ja kirjainyhdistelmien yleisyyteen perustuva kryptoanalyysin tekniikka, jolla puretaan salakirjoitusta. Frekvenssianalyysi soveltuu yksinkertaiseen korvaussalakirjoitukseen, jossa jokainen selkotekstin kirjain on korvattu salatekstissä aina yhdellä tietyllä kirjaimella.[1]
+
+Yksinkertaisimmassa frekvenssianalyysissä käytetään vain yksittäisten kirjainten yleisyystaulukoita. Sen lisäksi voidaan käyttää myös taulukoita, joissa on kahden ja kolmen kirjaimen yhdistelmien yleisyydet, sekä taulukoita, joissa on kirjainten yleisyydet sanojen alussa ja lopussa.[1][2] Jälkimmäisen edellytys on se, että salatekstissä käytetään välilyöntejä, jotta sanavälit erottuisivat.[1]
+
+Eri kielissä on erilaiset kirjainten yleisyydet, joten ne tarvitsevat aina omat taulukkonsa.[2][1] Usein eri teksteissä voi olla erilaiset kirjainten yleisyydet, kuten silloin kun tekstissä toistuu jokin sana, jossa esiintyy jokin harvinainen kirjain. Lyhyitä tekstejä on vaikea avata, sillä frekvenssit ovat silloin liian sattumanvaraisia.[1]
+
+Frekvenssianalyysi aloitetaan taulukoimalla salatekstin kirjainten yleisyydet. Sen jälkeen korvaaminen voidaan aloittaa esimerkiksi korvaamalla salakirjoitustekstin kaikkein yleisin kirjain siinä käytetyn kielen yleisimmällä kirjaimella. Jos tämä ei näytä toimivan, voidaan kokeilla toiseksi yleisintä, ja niin edelleen. Ensimmäisen kirjainparin löydyttyä voidaan jo usein havaita sellaisia lyhyitä sanoja, jotka on helppo täydentää oikeiksi pienen kokeilun pohjalta. Esimerkiksi englannin kielessä on vain kaksi yksikirjaimista sanaa, I ja a, ja kaksikirjaimisiakin sanoja on vain pieni määrä.[1]
+
+Frekvenssianalyysin kehittäjä oli 800-luvulla elänyt arabitiedemies al-Kindi.[

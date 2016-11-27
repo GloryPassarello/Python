@@ -1,0 +1,6 @@
+The frequency of letters in text has been studied for use in cryptanalysis, and frequency analysis in particular, dating back to the Iraqi mathematician Al-Kindi (c. 801–873 CE), who formally developed the method (the ciphers breakable by this technique go back at least to the Caesar cipher invented by Julius Caesar, so this method could have been explored in classical times).
+California Job Case
+
+Letter frequency analysis gained additional importance in Europe with the development of movable type in 1450 CE, where one must estimate the amount of type required for each letterform, as evidenced by the variations in letter compartment size in typographer's type cases.
+
+Linguists use letter frequency analysis as a rudimentary technique for language identification, where it's particularly effective as an indication of whether an unknown writing system is alphabetic, syllablic, or ideographic. For example, the Japanese Hiragana syllabary contains 46 distinct characters, which is more than most phonetic alphabets, e.g. the Hawaiian alphabet which has a mere 13 letters, or English which has 26.

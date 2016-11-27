@@ -1,0 +1,14 @@
+Ataki statystyczne – zespół ataków na szyfry, których wspólną cechą jest wykorzystanie informacji statystycznych na temat struktury tekstu jawnego. Historycznie najstarszym przykładem takiego ataku jest np. wykorzystanie następującego sposobu:
+
+    należy wyznaczyć rozkład znaków w zaszyfrowanym tekście i porównać z rozkładem w dowolnym tekście jawnym z tego samego języka (najlepiej, ale niekoniecznie, tego samego autora na podobny temat). Przy dłuższym tekście tajnym pozwala to na idealne rozszyfrowanie.
+
+Inne metody mogą polegać na poszukiwaniu takich statystycznych własności tekstu jawnego, które pomimo zastosowania algorytmu szyfrowania ukrywającego częstości znaków tekstu jawnego nadal są możliwe do odtworzenia na podstawie szyfrogramu (porównaj: test kappa, mutual information, entropia)
+
+Współcześnie ataki tego rodzaju są niezmiernie ważne i popularne, a to z następujących powodów:
+
+    ilości informacji szyfrowanej (szyfrogramów) dostępnych współcześnie są olbrzymie. Na przykład zaszyfrowanie jednego średniej wielkości pliku Worda dostarcza tyle informacji co ok. 600 stron druku (strona wydruku ASCII to ok. 1KB)
+
+    informacje szyfrowane zwykle posiadają bardzo bogatą i ściśle określoną strukturę, np. bity w plikach skompresowanych spełniają szereg znanych prawideł statystycznych, ich zaszyfrowanie ułatwia złamanie szyfru.
+
+    wykonanie ataku statystycznego często nie wymaga znajomości szczegółów algorytmu szyfrowania, wystarczy ogólna znajomość do jakiej rodziny algorytmów należy zastosowany algorytm;
+
