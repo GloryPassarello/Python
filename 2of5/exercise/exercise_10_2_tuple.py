@@ -9,13 +9,13 @@ for line in txt:
 		hour = d[5].split(':')
         t1.append(hour[0])
 		#print line.rstrip('\n')
-#print t1, type(t1)
+
 
 ist=dict() #we create a dictionary that in reality is a instogramm
 for h in t1:
 	ist[h]= ist.get(h, 0) + 1
-#print ist
 
+#z=ist.items() #it returns a list of tuples
 tmp=list()
 for k, v in ist.items():
 	tmp.append((v, k))

@@ -1,5 +1,5 @@
 u_input = raw_input('Please, enter a file: ')
-if len(u_input) < 1 : u_input = '/home/anabrs1/Python_material/code/mbox.txt'
+if len(u_input) < 1 : u_input = 'mbox-short.txt'
 text = open(u_input)
 person = list()
 ist = dict()
