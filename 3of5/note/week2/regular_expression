@@ -1,0 +1,25 @@
+regular expression itself is a mini programming language specialized on matching string
+
+to use regular expression, you must install re library. 
+
+import re
+
+re.search(, <string_name>)			to see if a string matches a regular expression
+									the argument must be a string
+
+re.findall()						to exstract portions of a string that matches the regular expression. 
+									it returns a list.
+
+structure
+re.finall('', <string_name>)
+
+################################################################################################
+		special regular expression
+@([^ ]*)
+
+@			it find an at
+()			to start and to end of the string extraction
+			it means that the regular expression will keep in memory to print 
+[^ ]			match non-blank character
+*			match many of them 
+

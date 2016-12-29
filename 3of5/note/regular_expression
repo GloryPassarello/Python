@@ -1,9 +1,0 @@
-regular expression itself is a mini programming language specialized on matching string
-
-to use regular expression, you must install re library. 
-
-import re
-
-re.search()		to see if a string matches a regular expression
-re.findall()		to exstract portions of a string that matches the regular expression. 
-			it returns a list.
