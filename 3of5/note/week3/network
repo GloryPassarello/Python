@@ -1,0 +1,62 @@
+Transport Control Protocol (TCP/IP)
+	LINK
+	INTERNETWORK (internet)
+	TRANSPORT
+	APPLICATION
+
+server/ computer
+peer to peer transport control protocol
+Carrier Sense Multiple Access with Collision Detection
+
+socket			two computers or applications are talking across the network. 
+				usually it is a server and a computer and the way they talk is called socker
+port number 	end point of comunication in an operating system. it is associated an IP address
+				from 0 to 1023 well-know ports or system ports
+					21  FTP
+					80  http
+					443 https
+					110 pop3
+				1024-49151 register port
+				49152 - 65535 privite port or dinamic 
+
+IP address		it is like the phone number of the computer 
+server			responds to request for services and waits for incoming connections
+client			requests servises and initiates connections
+gateway			a server which achts as intermediary for some other server
+DSL
+router
+
+http			HyperText Transport Protocol
+				When you are in internet you need a protocol just to have an idea who "talks" first
+				to read more  https://www.w3.org/Protocols/rfc2616/rfc2616.txt
+
+to make a connection to a server 80, you should write something like:
+GET http://www.py4inf.com/code/romeo.txt HTTP/1.0
+
+GET command followed a blank line
+http://www.py4inf.com/code/romeo.txt  page we are requesting
+HTTP/1.0	the protocol we are using
+
+URL				Uniform Resource locator 
+				protocol/host/file
+				https://it.wikipedia.org/wiki/HTTPS
+
+Python library to do this:	SOCKET
+							URLLIB
+
+socket
+it plays the role of the "Web browser"
+it is like making a phone call
+Socket can be used to comunicare with a web server or with a mail server or other kinds of servers.
+step followed by socket:
+import socket
+mysock=socket.socket()			makes an internet socket and a stream socket( it sends, gets back and keeps track of the data)
+mysock.connect( host, port)		make a connection: find the host and the port 
+
+
+
+urllib
+with this library you can handle web page like local file. 
+the common use of this library is SCRAPE THE WEB
+it knows about all the roles we use with the library socket.
+
