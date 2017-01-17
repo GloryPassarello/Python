@@ -1,0 +1,7 @@
+parsing data            extracting data from the web.
+                        it can be done using a browser or a Hypertext Transfer Protocol
+
+web scraping or web crawling    retrieve web page, search for link in those page and then continue
+Web scraping involve fetching a web page and extracting data from it
+
+we can automatize the process but servers can use captchas to detect the differences between human and or a programming application
