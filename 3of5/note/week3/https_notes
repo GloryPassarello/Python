@@ -1,0 +1,8 @@
+to make a socket to a https website
+
+a client does not need to have any special requirements 
+
+create_default_context()		create your SSL context
+								it will load the system's trusted CA certicates, enable certificate validation and host name cheching
+SSLContext.load_cert_chain()	used to add a client certificate
+SSLContent						to customise yhe certificate validation and hostname checking								

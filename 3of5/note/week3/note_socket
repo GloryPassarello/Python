@@ -1,0 +1,38 @@
+for a client:
+it only need to do:
+my_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+my_sock.connet(("host", port))
+
+
+#create an INET, STREAMing socket
+s = socket.socket(
+    socket.AF_INET, socket.SOCK_STREAM)
+#now connect to the web server on port 80
+# - the normal http port
+s.connect(("www.mcmillan-inc.com", 80))
+
+
+from a web server is a bit more complex
+
+
+#create an INET, STREAMing socket
+serversocket = socket.socket(
+    socket.AF_INET, socket.SOCK_STREAM)
+#bind the socket to a public host,
+# and a well-known port
+serversocket.bind((socket.gethostname(), 80))
+#become a server socket
+serversocket.listen(5)
+
+
+
+AF_INET 
+is an address family.
+it indicateds the type of addresses 
+
+
+    socket.error: [Errno 104] Connection reset by peer
+
+"Connection reset by peer" is the TCP/IP equivalent of slamming the phone back on the hook. It's more polite than merely not replying, leaving one hanging. But it's not the FIN-ACK expected of the truly polite TCP/IP converseur.
+
+Some administrators uses this method to block the potential scraping requests by a client
