@@ -1,0 +1,29 @@
+Which of the following Python data structures is most similar to the value returned in this line of Python:
+
+
+x = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
+
+
+
+Which of the following regular expressions would extract the URL from this line of HTML:
+
+<p>Please click <a href="http://www.dr-chuck.com">here</a></p>
+
+In this Python code, which line is most like the open() call to read a file:
+
+
+import socket
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 			#crete a socket
+mysock.connect(('www.py4inf.com', 80))						#make a connection
+mysock.send('GET http://www.py4inf.com/code/romeo.txt HTTP/1.0\n\n')		#send the data to the socket
+while True:
+    data = mysock.recv(512)							it is a open call to read the data
+    if ( len(data) < 1 ) :
+        break
+    print data
+mysock.close()
+
+
+socket.socket
+socket.connect(*address*) 	needs an address. make a connection
+socket.send			send data to the socket

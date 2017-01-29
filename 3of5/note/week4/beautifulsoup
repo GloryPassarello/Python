@@ -1,0 +1,8 @@
+put the file BeautifulSoup into the same folder you are at the moment
+write:
+
+	from BeautifulSoup import *
+
+you need to use 
+BeautifulSoup3 for Python 2.x
+beautifulSoup4 for Python 3.x
