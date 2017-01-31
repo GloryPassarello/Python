@@ -1,0 +1,17 @@
+Source:		https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+
+
+<tr>		defines a row of cells in a table. 
+		those can be a mix of <td> and <th> 
+
+
+		These are two rows. 
+
+		<td>Jane</td>
+		<td>Doe</td>
+
+<td>		defines a cell of a table that contains data 
+
+<th>		defines a cell ad header of a group of table cells
+
+<span>		It is a generic inline container for phrasing content
