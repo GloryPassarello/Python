@@ -1,0 +1,5 @@
+APIs		Application Program Interfaces
+		when you use it, a program makes a set of services available for use by other applications. 
+		Then it pubblished the APIs that must be followed to access the services provided by the program. 
+SOA		Service-Oriented Architecture
+		when my application makes use of services of other applications

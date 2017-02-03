@@ -1,0 +1,29 @@
+XML - eXtensible Markup Language
+
+XML looks very similar to HTML. 
+the structure of a xml is like a tree. 
+
+
+In Microsoft the x in the end means that it is using the XML. They use XML to define bold, italic...
+pptx for example
+
+
+
+In XML you have *elements* or *Nodes*
+
+Simple Element		tag - text - tag
+Complex Element		tag - tag- text - tag -tag 
+
+
+start Tag		<person>
+End Tag			</name>
+Text Content		text inside the tag
+Attribute		
+Self Closing tag	<email/>
+
+
+Terminology:
+
+Tags 		indicates the beginning and the ending of elements
+Attributes	Keyword/value pairs on the opening tag of XML
+
