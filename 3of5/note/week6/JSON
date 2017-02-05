@@ -1,0 +1,27 @@
+JavaScript Object Notation
+
+it has a structure of a dictionary and a list 
+
+advantage: it rappresents both of them. 
+Sintax
+
+object in json can be nested
+you have key and value
+a key can be a object or a value
+there is no attribute
+
+in python is written in triple quotes
+
+python library: 	json
+
+json.load() 	loads the data json and gives you back a dictionary 
+
+
+[]   array in json 
+	list in python 
+usually I have inside object
+
+I have back a list : json lib sees the [] and thinks 'it's a list!'
+
+
+
