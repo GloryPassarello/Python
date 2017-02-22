@@ -1,0 +1,25 @@
+keep in mind that 'str' are in the end bytes.
+
+unicode is for string: 
+
+for example: 
+u'Bld Mohamed V, Essaouira, Marrakech-Tensift-El Haouz Region, Morocco'
+
+the u before the string 'Bld Mohamed V, Essaouira, Marrakech-Tensift-El Haouz Region, Morocco' stands for unicode
+
+
+UTF-8	is an encoding like ASCII
+
+The difference is that the UTF-8 encoding can represent every Unicode character, while the ASCII encoding can’t
+
+
+###Useful Unicode tools###
+
+
+    - encode(): Gets you from Unicode -> bytes
+    - decode(): Gets you from bytes -> Unicode
+    - codecs.open(encoding=”utf-8″): Read and write files directly to/from Unicode (you can use any encoding, not just utf-8, but utf-8 is most common).
+    . u”: Makes your string literals into Unicode objects rather than byte sequences.
+
+
+ 

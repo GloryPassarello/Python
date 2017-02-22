@@ -39,9 +39,4 @@ API		a contract for interaction
 Web services	provide infrastructure for application cooperating (API) over a network. 
 		SOAP and REST are two stype of web servises
 XML and JSON are serialization formats
-
-
-
-urllib.urlencode({'sensor':'false', 'address': address})
-
-	 
+		 

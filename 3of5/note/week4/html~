@@ -1,6 +1,8 @@
 Source:		https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
 
 
+
+###tables###
 <tr>		defines a row of cells in a table. 
 		those can be a mix of <td> and <th> 
 
@@ -11,7 +13,18 @@ Source:		https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 		<td>Doe</td>
 
 <td>		defines a cell of a table that contains data 
-
 <th>		defines a cell ad header of a group of table cells
-
 <span>		It is a generic inline container for phrasing content
+
+###list###
+
+<li>		it is used to represent an item in a list. 
+		it must be contained in a parent element
+
+
+<a> 		<a> element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
+
+
+
+#####
+<div>		is the generic container for flow content and does not inherently represent anything. Use it to group elements for purposes such as styling (using the class or id attributes), marking a section of a document in a different language (using the lang attribute), and so on.
