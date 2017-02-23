@@ -1,0 +1,5 @@
+to start jupter 
+
+jupyter notebook  
+If you also have python-matplotlib installed, the first line of code to enable plotting in the current Notebook is 
+%matplotlib inline

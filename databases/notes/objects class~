@@ -1,0 +1,44 @@
+###class##
+a template
+In Python, class is a reserved word. 
+
+###methods###
+a defined capability of a class
+they can be defined also as object's abilities:methods are verbs. 
+they are the way we activate the code
+
+to list the capability use    dir()
+
+Each mathod have to have one parameter if it want to talk to variables 
+
+###field or attribute###
+a bit of data in a class
+
+###object###
+it is a particular instance of a class
+
+a programm is made of many cooperating objects
+so we can brack the problem into smaller parts
+an Objects have boundaries so we can ignore un-needed detail
+
+String, integer, dictionary, list have objects
+
+Objects are created and used
+
+###instance###
+instance of a object of instance of a class
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+class PartyAnimal:							#PartyAnimal is a class
+	x=0										#this is an object that is part of the class: 
+											#for that reason it is indeeded
+	def party(self):						#party() is a method
+		self.x=self.x + 1					#self is a parameter
+
+an=PartyAnimal()							#we are creating an object	
+
+
+
+     ###an.party()   is the same of    PartyAnimal.party(an)###
+
