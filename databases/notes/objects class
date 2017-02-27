@@ -8,14 +8,45 @@ they can be defined also as object's abilities:methods are verbs.
 they are the way we activate the code
 
 to list the capability use    dir()
-
 Each mathod have to have one parameter if it want to talk to variables 
+
+
+
+				__method__
+
+Methods written with two undescores are used by certain language to define a private mathod that must be execute when something in particular happens
+ 
+
 
 ###field or attribute###
 a bit of data in a class
 
 ###object###
 it is a particular instance of a class
+
+
+
+					OBJECT LIFE CYCLE
+
+Objects are used to be created, used and discarded
+we are methods(clocks of code that we use at the moment of the creation) 
+
+
+					INHERITANCE
+it is the way when we borrow methodos to other class. 
+
+so we create a class b that have the functionality of the class a and more. 
+
+
+					OBJECT ORIENTED APPROACH
+
+it is a structured approach to code reuse
+
+
+
+
+
+
 
 a programm is made of many cooperating objects
 so we can brack the problem into smaller parts
