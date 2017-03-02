@@ -59,12 +59,6 @@ Objects are created and used
 ###instance###
 instance of a object of instance of a class
 
-
-primary key	integer auto-increment field
-logical key	is used for the others users for look up
-forein key	is a integer key pointing to a row in another table
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 class PartyAnimal:							#PartyAnimal is a class
