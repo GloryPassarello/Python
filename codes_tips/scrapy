@@ -1,0 +1,12 @@
+SELECTORS
+
+when you are scraping the most common task is to extract data from a htlm source
+so you need to use SELECTORS: 
+on the html page you can use the selector you want for instance Beautifullsoup. 
+
+scrapy has built into several selector can be called like that:
+
+
+from scrapy.selector import Selector
+from scrapy.http import HtmlResponse
+

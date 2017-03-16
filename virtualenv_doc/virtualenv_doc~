@@ -19,17 +19,3 @@ source ENV/bin/activate
 #to deactivate the virtual environment
 
 deactivate
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-##if I need to push the folder on git but you need to ignore the virtual enviroment folder you can use .gitignore
-
-echo "<virtual_env_folder>" >> .gitignore
-
-pip freeze		give you back all the libraries installed on the sistem or on a virtual environment
-
-
-###this will install all the software on the the file  requirements.txt
-pip install -r requirements.txt
-

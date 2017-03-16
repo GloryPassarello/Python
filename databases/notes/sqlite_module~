@@ -14,7 +14,6 @@ c.execute()		#we can call a method to execute the SQL query
 
 
 c.fetchone()		#Fetches the next row of a query result set, returning a single sequence, or None when no more data is available.
-			it return the ros as a tuple, Even thugh we have only one field. so we need to use [0] to get the first value.
 
 conn.commit()		#This method commits the current transaction. If you don’t call this method, anything you did since the last call to commit() is not visible from other database connections. If you wonder why you don’t see the data you’ve written to the database, please check you didn’t forget to call this method.
 

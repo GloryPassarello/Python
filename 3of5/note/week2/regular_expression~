@@ -11,7 +11,7 @@ re.findall()						to exstract portions of a string that matches the regular expr
 									it returns a list.
 
 structure
-re.findall('', <string_name>)
+re.finall('', <string_name>)
 
 ################################################################################################
 		special regular expression

@@ -15,6 +15,19 @@ SELECT COUNT(*) FROM <table_name>
 
 
 
+
+LOGICAL OPERATION IN SQL
+
+<
+>
+<=
+>=
+!=
+AND
+OR
+
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 HEX ()
 It decodes a decimal-encoded hexadecimal field.
@@ -23,6 +36,8 @@ It decodes a decimal-encoded hexadecimal field.
 ||
 it is a string concatenation (una dietro l'altra) 
 in sqlite and postgres is an infix operator 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 INDEX		it is used as reference for the database.

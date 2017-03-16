@@ -1,0 +1,16 @@
+lists in python are iterable
+
+mylist = [1, 2, 3]
+mylist = (x*x for x in range(3))
+for i in mylist:
+	print i
+
+mylist now it is a generator and they are stored in memory
+
+GENERATORS
+
+they are iterators and you can only iterate them one: it is becourse they do not save value in the memory
+
+yield id like return except for the function will return a generator
+
+
