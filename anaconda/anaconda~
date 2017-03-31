@@ -1,0 +1,40 @@
+####anaconda##
+
+it is a container for all python libraries used for data analysis and visualization. 
+it has 150 built-in libraries and more that 700 libraries on the repo. 
+
+
+download the installer from here 
+
+https://www.continuum.io/downloads
+
+run 
+cd Download/
+bash Anaconda2-4.3.1-Linux-x86_64.sh 
+
+A folder called Anaconda2 is created 
+run 
+$ export PATH=~/anaconda2/bin:$PATH
+and verify version 
+
+$ conda --version
+
+###how to install a new package with conda
+example with rasterio
+
+
+# all version of rasterio
+conda search rasterio --channel conda-forge		
+
+##adding channel conda-forge
+conda config --add channels conda-forge
+
+##installing rasterio 
+
+conda install rasterio
+
+##more information can be found here
+
+https://conda.io/docs/test-drive.html
+
+
