@@ -1,5 +1,0 @@
-from module import submodule		this how to will avoid to write in the code module.submodule so you can call the function just typing suvmodule()
-
-inspect			python standard library
-			location /usr/lib/python2.7
-				 

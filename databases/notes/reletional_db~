@@ -1,4 +1,0 @@
-primary key	integer auto-increment field
-logical key	is used for the others users for look up
-forein key	is a integer key pointing to a row in another table
-

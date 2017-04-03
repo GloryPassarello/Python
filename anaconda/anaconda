@@ -15,6 +15,16 @@ bash Anaconda2-4.3.1-Linux-x86_64.sh
 A folder called Anaconda2 is created 
 run 
 $ export PATH=~/anaconda2/bin:$PATH
+
+
+/bin is a standerd subdirectory of the root directory that contains the executable programs
+with this command I am adding the PATH=~anaconda2 into $PATH list of colon separed list of directories where the **shell** looks for commands
+echo $PATH
+
+basically anaconda2 becomes executable
+
+
+
 and verify version 
 
 $ conda --version

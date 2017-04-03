@@ -1,8 +1,0 @@
-SELECTORS
-
-when you are scraping the most common task is to extract data from a htlm source
-so you need to use SELECTORS: 
-on the html page you can use the selector you want for instance Beautifullsoup. 
-
-
-
